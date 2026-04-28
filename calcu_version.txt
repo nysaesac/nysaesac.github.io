@@ -1,1 +1,1 @@
-min_version=10
+min_version=11
