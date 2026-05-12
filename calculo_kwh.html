@@ -3,39 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Valores de Consumo - Nysae SAC</title>
+<title>Calculadora kWh - Nysae SAC</title>
 </head>
 
 <body style="font-family:Arial; margin:0; padding:0; background:#f5f5f5;">
 
+<!-- TITULO -->
 <div style="text-align:center; padding:30px; background:#222; color:white;">
-    <h1>⚡ Valores de Consumo</h1>
-    <p>Referencia de artefactos eléctricos</p>
+    <h1>📊 Calculadora de Consumo kWh</h1>
+    <p>Guía de cálculo + valores + app</p>
 </div>
 
 <div style="max-width:900px; margin:auto; padding:20px;">
 
-    <div style="background:white; padding:20px; border-radius:10px;">
+    <!-- EXPLICACION -->
+    <div style="background:white; padding:20px; border-radius:10px; margin-bottom:20px;">
+
+        <h2>📘 ¿Cómo se calcula el consumo eléctrico?</h2>
+
+        <p>
+            Para calcular el consumo en kilowatts hora (kWh) se utilizan los siguientes datos:
+        </p>
 
         <ul>
-            <li>🍚 Olla arrocera: 1.4 A – 4.5 A</li>
-            <li>📺 TV 55” – 75”: 0.7 A – 2.0 A</li>
-            <li>🚿 Ducha eléctrica: 17 A – 23 A</li>
-            <li>⚡ Rapiducha: 10 A – 25 A</li>
-            <li>💡 Foco LED: 30 mA – 55 mA</li>
+            <li>⚡ Voltaje (V)</li>
+            <li>🔌 Amperaje (A)</li>
+            <li>⏱ Tiempo de uso (horas)</li>
+            <li>🌍 Factor de kilowatt hora (kWh)</li>
         </ul>
 
-        <p style="margin-top:15px; color:#666; text-align:center;">
-            ⚠ Valores aproximados según uso doméstico.
+        <p style="font-size:18px;">
+            Fórmula base: ⚡ kWh = (Voltaje × Amperaje × Horas) ÷ 1000
         </p>
 
     </div>
 
-    <div style="text-align:center; margin-top:20px;">
-        <a href="calculo_kwh.html"
-           style="padding:12px 20px; background:#28a745; color:white; text-decoration:none; border-radius:8px;">
-            🔙 Volver a calculadora
+    <!-- BOTON 1: VALORES -->
+    <div style="background:white; padding:20px; border-radius:10px; margin-bottom:20px; text-align:center;">
+
+        <h2>⚡ ¿No sabes cuánto consume tu equipo?</h2>
+
+        <p>
+            Ejemplo: olla arrocera, televisor, ducha eléctrica, etc.
+        </p>
+
+        <a href="valores.html"
+           style="display:inline-block; padding:12px 18px; background:#111; color:white; text-decoration:none; border-radius:8px;">
+            🔍 Ver valores de consumo
         </a>
+
+    </div>
+
+    <!-- BOTON 2: APP -->
+    <div style="background:white; padding:20px; border-radius:10px; text-align:center;">
+
+        <h2>📱 Aprende a calcular automáticamente</h2>
+
+        <p>
+            Usa nuestra aplicación para calcular el consumo en soles de forma automática.
+        </p>
+
+        <a href="https://play.google.com/store/apps/details?id=com.nysae.calcu"
+           style="display:inline-block; padding:12px 18px; background:green; color:white; text-decoration:none; border-radius:8px;">
+            Descargar App Calculadora kWh
+        </a>
+
     </div>
 
 </div>
